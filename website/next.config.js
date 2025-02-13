@@ -6,7 +6,7 @@ export default withGuildDocs({
   },
   env: {
     // needs for canonical <link />
-    SITE_URL: 'https://pantaleone2025.vercel.app/',
+    SITE_URL: 'https://pantaleone2025.vercel.app',
   },
   output: 'export',
   redirects: () =>
