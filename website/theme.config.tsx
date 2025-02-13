@@ -8,7 +8,7 @@ import { Tweet } from '@/shared/embed/tweet';
 import { Callout, defineConfig, Steps, useConfig } from '@theguild/components';
 
 function ensureAbsolute(url: string): string {
-  return url.startsWith('/') ? `https://pantaleone2025.vercel.app${url}` : url;
+  return url.startsWith('/') ? `https://the-guild.dev${url}` : url;
 }
 
 const siteDescription = 'Modern, Open-source API Tooling and Ecosystem that scales';
