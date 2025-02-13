@@ -8,7 +8,7 @@ import { Tweet } from '@/shared/embed/tweet';
 import { Callout, defineConfig, Steps, useConfig } from '@theguild/components';
 
 function ensureAbsolute(url: string): string {
-  return url.startsWith('/') ? `https://the-guild.dev${url}` : url;
+  return url.startsWith('/') ? `https://pantaleone2025.vercel.app${url}` : url;
 }
 
 const siteDescription = 'Modern, Open-source API Tooling and Ecosystem that scales';
@@ -19,7 +19,7 @@ export default defineConfig({
     dark: '15,17,20',
     light: '250,250,250',
   },
-  docsRepositoryBase: 'https://github.com/the-guild-org/the-guild-website/tree/master/website', // base URL for the docs repository
+  docsRepositoryBase: 'https://github.com/pantaleone-ai/pnet-frm-theguild/tree/master/website', // base URL for the docs repository
   head: function useHead() {
     const { frontMatter, title: pageTitle, normalizePagesResult } = useConfig();
 
