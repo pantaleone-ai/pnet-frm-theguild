@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
         <Head>
           <OrganizationJsonLd
             url="https://pantaleone.net"
-            logo="public/pantaleone-header-logo.svg"
+            logo="https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg"
             name="Pantaleone.net"
           />
           <style dangerouslySetInnerHTML={{ __html: getCssText() }} />

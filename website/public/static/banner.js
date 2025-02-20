@@ -10,8 +10,8 @@ function htmlToElements(html) {
 }
 
 function main() {
-  // const logoUrl = "https://the-guild.dev/static/logo.png";
-  const linkUrl = 'https://the-guild.dev';
+  // const logoUrl = "https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg";
+  const linkUrl = 'https://pantaleone.net';
   // const title = "The Guild - Open Source";
   const docusaurusId = '__docusaurus';
 
@@ -143,11 +143,11 @@ function main() {
         }
 
         :root {
-          --logo-bg: url("${linkUrl}/static/logo.svg") no-repeat;
+          --logo-bg: url("https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg") no-repeat;
         }
 
         [data-theme="dark"] {
-          --logo-bg: url("${linkUrl}/static/white-logo.png") no-repeat;
+          --logo-bg: url("https://pnet-frm-theguild.vercel.app/pantaleone-header-logo-white.svg") no-repeat;
         }
 
         .g-header-logo {
@@ -390,12 +390,12 @@ function main() {
       </div>
 
       <div id="g-header-bar">
-        <a href="${linkUrl}" title="The Guild - Open Source">
+        <a href="${linkUrl}" title="Pantaleone.net - AI Enabled Growth & Innovation">
           <div class="g-header-logo"></div>
           <!--<picture>
-            <source srcset="${linkUrl}/static/white-logo.png" media="(prefers-color-scheme: dark)" />
-            <source srcset="${linkUrl}/static/logo.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-            <img src="${linkUrl}/static/logo.svg" alt="The Guild Logo"/>
+            <source srcset="https://pnet-frm-theguild.vercel.app/pantaleone-header-logo-white.svg" media="(prefers-color-scheme: dark)" />
+            <source srcset="https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img src="https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg" alt="Pantaleone Logo"/>
           </picture>-->
         </a>
         <div>
