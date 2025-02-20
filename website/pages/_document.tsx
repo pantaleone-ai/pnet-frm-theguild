@@ -8,16 +8,16 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <OrganizationJsonLd
-            url="https://the-guild.dev"
-            logo="https://the-guild.dev/static/logo.svg"
-            name="The Guild"
+            url="https://pantaleone.net"
+            logo="public/pantaleone-header-logo.svg"
+            name="Pantaleone.net"
           />
           <style dangerouslySetInnerHTML={{ __html: getCssText() }} />
           <meta charSet="utf-8" />
           <link
             rel="alternate"
             type="application/rss+xml"
-            title="RSS Feed for the-guild.dev"
+            title="RSS Feed for Pantaleone.net"
             href="/feed.xml"
           />
         </Head>

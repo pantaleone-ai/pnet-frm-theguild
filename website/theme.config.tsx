@@ -11,8 +11,8 @@ function ensureAbsolute(url: string): string {
   return url.startsWith('/') ? `https://the-guild.dev${url}` : url;
 }
 
-const siteDescription = 'Modern, Open-source API Tooling and Ecosystem that scales';
-const siteName = 'The Guild';
+const siteDescription = 'Helping Businesses, Non-profits and People Scale Their Capabilities with AI';
+const siteName = 'Pantaleone.net';
 
 export default defineConfig({
   backgroundColor: {
@@ -74,9 +74,9 @@ export default defineConfig({
     StackBlitz,
     Steps,
   },
-  websiteName: 'The Guild',
+  websiteName: 'Pantaleone',
   description: siteDescription,
   search: {
-    placeholder: 'Search…',
+    placeholder: 'Search Pantaleone.net',
   },
 });

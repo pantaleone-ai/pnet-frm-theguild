@@ -24,16 +24,16 @@ async function generateRSS() {
   const { allBlogs } = await import('./lib/all-blogs');
 
   const feed = new RSS({
-    title: 'The Guild Blog',
-    site_url: 'https://the-guild.dev',
-    feed_url: 'https://the-guild.dev/feed.xml',
+    title: 'Pantaleone.net AI & Tech Blog',
+    site_url: 'https://pantaleone.net',
+    feed_url: 'https://pantaleone.net/feed.xml',
   });
 
   for (const meta of allBlogs as MetaWithLink[]) {
     feed.item({
       title: meta.title,
       guid: meta.link,
-      url: `https://the-guild.dev${meta.link}`,
+      url: `https://pantaleone.net${meta.link}`,
       date: meta.date,
       description: meta.description,
     });
