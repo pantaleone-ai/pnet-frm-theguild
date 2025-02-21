@@ -13,13 +13,13 @@ function main() {
   // const logoUrl = "https://pnet-frm-theguild.vercel.app/pantaleone-header-logo.svg";
   const linkUrl = 'https://pantaleone.net';
   // const title = "The Guild - Open Source";
-  const docusaurusId = '__docusaurus';
+  // const docusaurusId = '__docusaurus';
 
-  if (document.getElementById(docusaurusId)) {
-    init();
-  } else {
-    window.addEventListener('load', init);
-  }
+  // if (document.getElementById(docusaurusId)) {
+  //   init();
+  // } else {
+  //   window.addEventListener('load', init);
+  // }
 
   /**
    * Toggle the OSS modal

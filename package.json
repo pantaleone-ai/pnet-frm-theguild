@@ -37,5 +37,8 @@
     "overrides": {
       "hast-util-to-estree": "^3.0.0"
     }
+  },
+  "dependencies": {
+    "@theguild/components": "6.6.4"
   }
 }

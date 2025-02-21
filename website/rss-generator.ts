@@ -25,15 +25,15 @@ async function generateRSS() {
 
   const feed = new RSS({
     title: 'Pantaleone.net AI & Tech Blog',
-    site_url: 'https://pantaleone.net',
-    feed_url: 'https://pantaleone.net/feed.xml',
+    site_url: 'https://pnet-frm-theguild.vercel.app/',
+    feed_url: 'https://pnet-frm-theguild.vercel.app/feed.xml',
   });
 
   for (const meta of allBlogs as MetaWithLink[]) {
     feed.item({
       title: meta.title,
       guid: meta.link,
-      url: `https://pantaleone.net${meta.link}`,
+      url: `https://pnet-frm-theguild.vercel.app/${meta.link}`,
       date: meta.date,
       description: meta.description,
     });

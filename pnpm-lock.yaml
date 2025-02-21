@@ -10,6 +10,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      '@theguild/components':
+        specifier: 6.6.4
+        version: 6.6.4(@types/react@18.3.18)(acorn@8.14.0)(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
     devDependencies:
       '@theguild/eslint-config':
         specifier: 0.12.1

@@ -13,14 +13,27 @@ function ensureAbsolute(url: string): string {
 
 const siteDescription = 'Helping Businesses, Non-profits and People Scale Their Capabilities with AI';
 const siteName = 'Pantaleone.net';
+const logo = (
+  <>
+    <span className="w-6 h-7 flex items-center justify-center bg-transparent border border-white rounded">
+      <span className="text-xl font-bold text-white">P</span>
+    </span>
+    <span aria-label="logo" className="ml-2">pantaleone</span>
+  </>
+)
+
+
 
 export default defineConfig({
   backgroundColor: {
     dark: '15,17,20',
     light: '250,250,250',
   },
+  
   docsRepositoryBase: 'https://github.com/pantaleone-ai/pnet-frm-theguild/tree/master/website', // base URL for the docs repository
   head: function useHead() {
+
+    
     const { frontMatter, title: pageTitle, normalizePagesResult } = useConfig();
 
     const title = `${pageTitle} (${siteName})`;
@@ -63,6 +76,7 @@ export default defineConfig({
       </>
     );
   },
+  logo,
   components: {
     Callout,
     Video,
@@ -79,4 +93,5 @@ export default defineConfig({
   search: {
     placeholder: 'Search Pantaleone.net',
   },
+  
 });
